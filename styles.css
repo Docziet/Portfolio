@@ -1,0 +1,122 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 1;
+    padding: 1;
+    line-height: 1.6;
+}
+
+header {
+    background: #0073e6;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 5px;
+}
+
+nav {
+    background-color: #0073e6; /* Blue background */
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none; /* Remove default list styling */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Make the list items horizontal */
+    justify-content: center; /* Center items */
+}
+
+nav ul li {
+    margin: 0 15px; /* Add spacing between list items */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white; /* Make text visible */
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: background 0.3s ease;
+}
+
+nav ul li a:hover {
+    background: rgba(255, 255, 255, 0.2); /* Light hover effect */
+    border-radius: 5px;
+}
+
+
+section {
+    max-width: 900px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #0073e6;
+    border-bottom: 2px solid #0073e6;
+    padding-bottom: 5px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background: url('bullet.png') no-repeat left center;
+    background-size: 15px;
+    padding-left: 25px;
+    margin: 10px 0;
+}
+
+h3 {
+    color: #005bb5;
+    margin-top: 15px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #0073e6;
+    color: white;
+    margin-top: 30px;
+}
+
+/* Default link style */
+a {
+    text-decoration: none; /* Remove default underline */
+    color: blue; /* Default color */
+    font-weight: bold;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+/* Change color on hover */
+a:hover {
+    color: darkblue; /* Darker blue */
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Active (when clicked) */
+a:active {
+    color: red; /* Change color on click */
+}
+
+/* Visited links */
+a:visited {
+    color: purple; /* Different color for visited links */
+}
+
