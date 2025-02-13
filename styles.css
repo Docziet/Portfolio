@@ -8,7 +8,7 @@ body {
 }
 
 header {
-    background: #0073e6;
+    background: #0000ff;
     color: #fff;
     text-align: center;
     padding: 30px 0;
@@ -25,7 +25,7 @@ header p {
 }
 
 nav {
-    background-color: #0073e6; /* Blue background */
+    background-color: #0000ff; /* Blue background */
     padding: 10px 0;
 }
 
@@ -66,8 +66,8 @@ section {
 }
 
 h2 {
-    color: #0073e6;
-    border-bottom: 2px solid #0073e6;
+    color: #0000ff;
+    border-bottom: 2px solid #0000ff;
     padding-bottom: 5px;
 }
 
@@ -84,14 +84,14 @@ ul li {
 }
 
 h3 {
-    color: #005bb5;
+    color: #00008B;
     margin-top: 15px;
 }
 
 footer {
     text-align: center;
     padding: 20px;
-    background: #0073e6;
+    background: #0000ff;
     color: white;
     margin-top: 30px;
 }
@@ -99,7 +99,7 @@ footer {
 /* Default link style */
 a {
     text-decoration: none; /* Remove default underline */
-    color: blue; /* Default color */
+    color: #00a2a2; /* Default color */
     font-weight: bold;
     transition: color 0.3s ease, text-decoration 0.3s ease;
 }
@@ -117,7 +117,7 @@ a:active {
 
 /* Visited links */
 a:visited {
-    color: rgb(236, 201, 0); /* Different color for visited links */
+    color: rgb(255, 217, 0); /* Different color for visited links */
 }
 
 /* Force desktop scaling on mobile */
