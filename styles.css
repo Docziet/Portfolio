@@ -117,6 +117,15 @@ a:active {
 
 /* Visited links */
 a:visited {
-    color: purple; /* Different color for visited links */
+    color: rgb(236, 201, 0); /* Different color for visited links */
 }
 
+/* Force desktop scaling on mobile */
+@media (max-width: 768px) {
+    body {
+        transform: scale(0.8);  /* Shrinks everything to fit */
+        transform-origin: top left;
+        width: 125%; /* Expands the layout to compensate */
+        overflow-x: hidden;
+    }
+}
